@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color:#35b8ef;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative; 
+}
+
+h1 {
+    color: #f1fcfd;
+    font-size: 35px;
+    margin-left:35px ;
+    margin-bottom: 20px;
+}
+
+.person-info {
+    margin-top: 10px;
+    
+}
+
+.person-info div {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  
+   
+}
+
+.person-info p {
+    margin: 5px 0;
+    border: none;
+    font-size: 16px;
+   
+   
+}
+
+.record-number {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.name {
+    background-color: #f1fcfd; 
+}
+
+.location {
+    background-color: #ebe9e6; 
+}
+
+#next-person {
+    position: absolute; 
+    top: 35px; 
+    right: 10px; 
+    margin-right: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    background-color: #da7a47;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
